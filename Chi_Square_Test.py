@@ -26,7 +26,6 @@ print(member_table)
 
 # ------------Manual perform Chi-square test------------------
 observed = casual_table
-expected = member_table
 
 member_ratios = member_table/len(member)  # Get population ratios
 print(len(member))
